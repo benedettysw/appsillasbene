@@ -12,11 +12,15 @@ class holas extends StatefulWidget {
 class _holasState extends State<holas> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Center(
-        child: Text("repositorio"),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("hola mundo"),
       ),
+      body: Container(
+          child: const Padding(
+            padding: EdgeInsets.all(20),
+              child: Text("hola mundo"),
+      )),
     );
   }
 }
