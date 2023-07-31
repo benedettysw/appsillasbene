@@ -15,7 +15,7 @@ class _holasState extends State<holas> {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Center(
-        child: Text("hola DART"),
+        child: Text("repositorio"),
       ),
     );
   }
